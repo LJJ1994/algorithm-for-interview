@@ -1,0 +1,660 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="83491d5f-eb3e-41e1-8d03-cfce789c6b94" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_3_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_errorprone_error_prone_annotations_2_5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_failureaccess_1_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_30_1_1_jre.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_listenablefuture_9999_0_empty_to_avoid_conflict_with_guava.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_j2objc_j2objc_annotations_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_cli_commons_cli_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_3_10_5_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_curator_curator_client_4_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_zookeeper_zookeeper_3_5_3_beta.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_checkerframework_checker_qual_3_8_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithm_introduce.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/MapDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/dp/CompletePack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/dp/ZeroOnePack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cache/Cache.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cache/Cache1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cache/CacheTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cache/CacheTest1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/service/SPIDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/service/SendMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/service/impl/EmailSend.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/service/impl/SmsSend.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/crashing_interview/Difference.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/crashing_interview/Hanota.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/crashing_interview/PowerOf2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/crashing_interview/ReverseArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/crashing_interview/SmallestK.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/datastructure/heap/MinHeap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/datastructure/heap/UnderflowException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/datastructure/searchs/BinarySearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/datastructure/sorts/BubbleSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/datastructure/sorts/CountingSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/datastructure/sorts/HeapSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/datastructure/sorts/InsertSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/datastructure/sorts/MergeSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/datastructure/sorts/QuickSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/datastructure/sorts/SelectSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/datastructure/sorts/ShellSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/datastructure/tree/BinarySearchTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/datastructure/tree/SegmentTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/datastructure/tree/TraverseTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/java_demo/AnnoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/java_demo/Apple.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/java_demo/BloomFilterDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/java_demo/COWDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/java_demo/ClassLoaderDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/java_demo/CovariantDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/java_demo/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/java_demo/DispatcherDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/java_demo/FormatDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/java_demo/Fruit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/java_demo/GenericDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/java_demo/IntegerCacheDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/java_demo/ListDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/java_demo/LongAdderDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/java_demo/LoopDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/java_demo/MapDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/java_demo/NPEDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/java_demo/Orange.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/java_demo/OverloadTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/java_demo/PhoneHandleDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/java_demo/PropertiesDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/java_demo/ReferenceDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/java_demo/StreamDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/java_demo/StringBuilderDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/java_demo/StringDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/java_demo/StringDemo1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/java_demo/SwitchDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/java_demo/TableSized.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/java_demo/ThreadLocalDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/java_demo/TimerDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/java_demo/TreeMapDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/java_demo/anno/Auth.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/java_demo/cache/LRUCache.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/java_demo/date/DateDemo1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/java_demo/date/DateDemo2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/java_demo/enum1/Result.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/java_demo/enum1/Result.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/java_demo/enum1/ResultDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/java_demo/forEach/ForEachDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/java_demo/generic/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/java_demo/generic/Cat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/java_demo/generic/CatDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/java_demo/generic/JiaFeiCat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/DetectCapitalUse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/MaxProfit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/ValidIPAddress.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/backtrace/FindRepeatedDnaSequences.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/backtrace/Permute.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/hot100/AddTwoNumbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/hot100/CoinChange.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/hot100/CoinChange2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/hot100/CombinationSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/hot100/CombinationSum2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/hot100/CombinationSum3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/hot100/CombinationSum4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/hot100/Combine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/hot100/DecodeString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/hot100/FindAnagrams.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/hot100/FindDisappearedNumbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/hot100/FindDuplicate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/hot100/FindKthLargest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/hot100/FindMaxForm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/hot100/FindTargetSumWays.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/hot100/FindWords.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/hot100/Flatten.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/hot100/GenerateParenthesis.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/hot100/InorderTraversal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/hot100/IntervalsMerge.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/hot100/IsAnagram.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/hot100/LRUCache.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/hot100/LargestRectangleArea.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/hot100/LengthOfLongestSubstring.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/hot100/LongestConsecutive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/hot100/LongestValidParentheses.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/hot100/MapSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/hot100/MapSum1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/hot100/MaxProduct.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/hot100/MaxSlidingWindow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/hot100/MaxSlidingWindow1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/hot100/MergeKLists.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/hot100/MinPathSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/hot100/MinWindow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/hot100/MoveZeroes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/hot100/NextPermutation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/hot100/PalindromePairs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/hot100/PermuteUnique.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/hot100/PostorderTraversal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/hot100/PreorderTraversal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/hot100/RegMatch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/hot100/RemoveNthFromEnd.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/hot100/ReplaceWords.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/hot100/Reverse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/hot100/Rotate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/hot100/SearchInRotateArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/hot100/SearchMatrix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/hot100/SearchRange.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/hot100/SortInList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/hot100/Subsets.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/hot100/ThreeSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/hot100/TopKFrequent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/hot100/Triangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/hot100/Trie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/hot100/UniquePathsWithObstacles.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/hot100/WordBreak.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/hot100/WordDictionary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/lists/AddTwoNumbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/other/WordPattern.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/stack/Calculate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/stack/EvalRPN.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/stack/SimplifyPath.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/strings/AddBinary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/strings/AddStrings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/strings/AtoI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/strings/BracketsValid.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/strings/FirstUniqChar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/strings/LengthOfLastWord.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/strings/LetterCombinations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/strings/LongestCommonPrefix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/strings/RestoreIpAddresses.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/strings/ReverseString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/system_design/BrowserHistory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/system_design/LFUCache.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/system_design/MyCircularDeque.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/system_design/MyCircularDequeOfLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/system_design/MyHashMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/system_design/MyHashSet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/system_design/MyHashSetOfLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/system_design/MyLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/system_design/ShortUrl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/system_design/Twitter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/system_design/test/TweeterTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sword_finger_offer/BinaryBitNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sword_finger_offer/BinaryTreeConvert.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sword_finger_offer/BuildTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sword_finger_offer/CQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sword_finger_offer/Codec.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sword_finger_offer/CoinChange.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sword_finger_offer/CopyRandomList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sword_finger_offer/CountDigitOne.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sword_finger_offer/CutRope.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sword_finger_offer/DeleteNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sword_finger_offer/EntryNodeOfLoop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sword_finger_offer/Fibonaci.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sword_finger_offer/FindBinaryTreeSuccessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sword_finger_offer/FindCenterNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sword_finger_offer/FindContinuousSequence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sword_finger_offer/FindKthToTail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sword_finger_offer/FindNumberIn2DArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sword_finger_offer/FindPath.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sword_finger_offer/FindRepeatNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sword_finger_offer/FirstUniqChar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sword_finger_offer/HasSubTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sword_finger_offer/InversePairs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sword_finger_offer/IsNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sword_finger_offer/IsSymmetric.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sword_finger_offer/LevelOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sword_finger_offer/LevelOrder2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sword_finger_offer/LongestCommonSubsequence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sword_finger_offer/LongestPalindrome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sword_finger_offer/LowestCommonAncestor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sword_finger_offer/MajorityElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sword_finger_offer/MatrixPath.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sword_finger_offer/MaxQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sword_finger_offer/MaxSlidingWindow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sword_finger_offer/MaxSubArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sword_finger_offer/MaxValueGift.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sword_finger_offer/MedianFinder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sword_finger_offer/MergeTwoLists.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sword_finger_offer/MinDistance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sword_finger_offer/MinNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sword_finger_offer/MinStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sword_finger_offer/MirrorRecursively.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sword_finger_offer/Permutation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sword_finger_offer/PowerWithExponent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sword_finger_offer/Print1ToMaxNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sword_finger_offer/PrintBinaryTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sword_finger_offer/PrintListNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sword_finger_offer/PrintMatrixClockwisely.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sword_finger_offer/PrintNumbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sword_finger_offer/ReorderOddEven.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sword_finger_offer/ReplaceSpace.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sword_finger_offer/ReverseList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sword_finger_offer/ReverseWords.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sword_finger_offer/RobotMotion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sword_finger_offer/RotateArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sword_finger_offer/SearchKInSortedArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sword_finger_offer/SpiralOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sword_finger_offer/StrToInt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sword_finger_offer/TranslateNum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sword_finger_offer/ValidateStackSequences.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sword_finger_offer/VerifyPostorder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/services/com.service.SendMessage" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/config/config.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/META-INF/services/com.service.SendMessage" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Sword_finger_offer/BinaryBitNumber.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Sword_finger_offer/BinaryTreeConvert$Node.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Sword_finger_offer/BinaryTreeConvert.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Sword_finger_offer/BuildTree$TreeNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Sword_finger_offer/BuildTree.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Sword_finger_offer/CQueue.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Sword_finger_offer/Codec$TreeNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Sword_finger_offer/Codec.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Sword_finger_offer/CoinChange.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Sword_finger_offer/CopyRandomList$Node.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Sword_finger_offer/CopyRandomList.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Sword_finger_offer/CountDigitOne.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Sword_finger_offer/CutRope.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Sword_finger_offer/DeleteNode$ListNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Sword_finger_offer/DeleteNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Sword_finger_offer/EntryNodeOfLoop$ListNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Sword_finger_offer/EntryNodeOfLoop.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Sword_finger_offer/Fibonaci.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Sword_finger_offer/FindBinaryTreeSuccessor$TreeNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Sword_finger_offer/FindBinaryTreeSuccessor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Sword_finger_offer/FindCenterNode$ListNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Sword_finger_offer/FindCenterNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Sword_finger_offer/FindContinuousSequence.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Sword_finger_offer/FindKthToTail$ListNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Sword_finger_offer/FindKthToTail.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Sword_finger_offer/FindNumberIn2DArray.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Sword_finger_offer/FindPath$TreeNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Sword_finger_offer/FindPath.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Sword_finger_offer/FindRepeatNumber.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Sword_finger_offer/FirstUniqChar.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Sword_finger_offer/HasSubTree$BinaryTreeNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Sword_finger_offer/HasSubTree.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Sword_finger_offer/InversePairs.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Sword_finger_offer/IsNumber$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Sword_finger_offer/IsNumber$10.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Sword_finger_offer/IsNumber$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Sword_finger_offer/IsNumber$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Sword_finger_offer/IsNumber$4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Sword_finger_offer/IsNumber$5.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Sword_finger_offer/IsNumber$6.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Sword_finger_offer/IsNumber$7.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Sword_finger_offer/IsNumber$8.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Sword_finger_offer/IsNumber$9.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Sword_finger_offer/IsNumber$CharType.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Sword_finger_offer/IsNumber$State.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Sword_finger_offer/IsNumber.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Sword_finger_offer/IsSymmetric$TreeNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Sword_finger_offer/IsSymmetric.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Sword_finger_offer/LevelOrder$TreeNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Sword_finger_offer/LevelOrder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Sword_finger_offer/LevelOrder2$TreeNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Sword_finger_offer/LevelOrder2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Sword_finger_offer/LongestCommonSubsequence.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Sword_finger_offer/LongestPalindrome.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Sword_finger_offer/LowestCommonAncestor$TreeNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Sword_finger_offer/LowestCommonAncestor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Sword_finger_offer/MajorityElement.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Sword_finger_offer/MatrixPath.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Sword_finger_offer/MaxQueue.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Sword_finger_offer/MaxSlidingWindow$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Sword_finger_offer/MaxSlidingWindow$MonotonicQueue.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Sword_finger_offer/MaxSlidingWindow.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Sword_finger_offer/MaxSubArray.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Sword_finger_offer/MaxValueGift.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Sword_finger_offer/MedianFinder$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Sword_finger_offer/MedianFinder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Sword_finger_offer/MergeTwoLists$ListNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Sword_finger_offer/MergeTwoLists.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Sword_finger_offer/MinDistance.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Sword_finger_offer/MinNumber$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Sword_finger_offer/MinNumber.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Sword_finger_offer/MinStack.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Sword_finger_offer/MirrorRecursively$TreeNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Sword_finger_offer/MirrorRecursively.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Sword_finger_offer/Permutation.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Sword_finger_offer/PowerWithExponent.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Sword_finger_offer/Print1ToMaxNumber.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Sword_finger_offer/PrintBinaryTree$TreeNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Sword_finger_offer/PrintBinaryTree.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Sword_finger_offer/PrintListNode$ListNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Sword_finger_offer/PrintListNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Sword_finger_offer/PrintMatrixClockwisely.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Sword_finger_offer/PrintNumbers.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Sword_finger_offer/ReorderOddEven.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Sword_finger_offer/ReplaceSpace.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Sword_finger_offer/ReverseList$ListNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Sword_finger_offer/ReverseList.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Sword_finger_offer/ReverseWords.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Sword_finger_offer/RobotMotion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Sword_finger_offer/RotateArray.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Sword_finger_offer/SearchKInSortedArray.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Sword_finger_offer/SpiralOrder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Sword_finger_offer/StrToInt.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Sword_finger_offer/TranslateNum.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Sword_finger_offer/ValidateStackSequences.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Sword_finger_offer/VerifyPostorder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/algorithm/MapDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/algorithm/dp/CompletePack.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/algorithm/dp/ZeroOnePack.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cache/Cache$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cache/Cache$Entity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cache/Cache.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cache/Cache1$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cache/Cache1$Entity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cache/Cache1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cache/CacheTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cache/CacheTest1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/service/SPIDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/service/SendMessage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/service/impl/EmailSend.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/service/impl/SmsSend.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/config/config.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/crashing_interview/Difference.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/crashing_interview/Hanota.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/crashing_interview/PowerOf2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/crashing_interview/ReverseArray.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/crashing_interview/SmallestK.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/datastructure/heap/MinHeap.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/datastructure/heap/UnderflowException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/datastructure/searchs/BinarySearch.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/datastructure/sorts/BubbleSort.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/datastructure/sorts/CountingSort.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/datastructure/sorts/HeapSort.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/datastructure/sorts/InsertSort.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/datastructure/sorts/MergeSort.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/datastructure/sorts/QuickSort.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/datastructure/sorts/SelectSort.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/datastructure/sorts/ShellSort.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/datastructure/tree/BinarySearchTree$Node.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/datastructure/tree/BinarySearchTree.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/datastructure/tree/SegmentTree.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/datastructure/tree/TraverseTree$Node.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/datastructure/tree/TraverseTree.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/java_demo/AnnoTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/java_demo/Apple.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/java_demo/BloomFilterDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/java_demo/COWDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/java_demo/ClassLoaderDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/java_demo/CovariantDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/java_demo/Demo$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/java_demo/Demo$Data.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/java_demo/Demo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/java_demo/DispatcherDemo$Father.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/java_demo/DispatcherDemo$QQ.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/java_demo/DispatcherDemo$Son.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/java_demo/DispatcherDemo$_360.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/java_demo/DispatcherDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/java_demo/FormatDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/java_demo/Fruit.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/java_demo/GenericDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/java_demo/IntegerCacheDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/java_demo/ListDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/java_demo/LongAdderDemo$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/java_demo/LongAdderDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/java_demo/LoopDemo$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/java_demo/LoopDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/java_demo/MapDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/java_demo/NPEDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/java_demo/Orange.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/java_demo/OverloadTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/java_demo/PhoneHandleDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/java_demo/PropertiesDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/java_demo/ReferenceDemo$User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/java_demo/ReferenceDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/java_demo/StreamDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/java_demo/StringBuilderDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/java_demo/StringDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/java_demo/StringDemo1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/java_demo/SwitchDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/java_demo/TableSized.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/java_demo/ThreadLocalDemo$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/java_demo/ThreadLocalDemo$User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/java_demo/ThreadLocalDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/java_demo/TimerDemo$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/java_demo/TimerDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/java_demo/TreeMapDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/java_demo/anno/Auth.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/java_demo/cache/LRUCache.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/java_demo/date/DateDemo1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/java_demo/date/DateDemo2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/java_demo/enum1/Result.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/java_demo/enum1/ResultDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/java_demo/forEach/ForEachDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/java_demo/generic/Animal.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/java_demo/generic/Cat.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/java_demo/generic/CatDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/java_demo/generic/JiaFeiCat.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/DetectCapitalUse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/MaxProfit.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/ValidIPAddress.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/backtrace/FindRepeatedDnaSequences.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/backtrace/Permute.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/hot100/AddTwoNumbers$ListNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/hot100/AddTwoNumbers.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/hot100/CoinChange.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/hot100/CoinChange2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/hot100/CombinationSum.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/hot100/CombinationSum2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/hot100/CombinationSum3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/hot100/CombinationSum4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/hot100/Combine.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/hot100/DecodeString.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/hot100/FindAnagrams.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/hot100/FindDisappearedNumbers.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/hot100/FindDuplicate.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/hot100/FindKthLargest$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/hot100/FindKthLargest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/hot100/FindMaxForm.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/hot100/FindTargetSumWays.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/hot100/FindWords.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/hot100/Flatten$TreeNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/hot100/Flatten.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/hot100/GenerateParenthesis.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/hot100/InorderTraversal$TreeNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/hot100/InorderTraversal.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/hot100/IntervalsMerge$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/hot100/IntervalsMerge.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/hot100/IsAnagram.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/hot100/LRUCache$DLinkedNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/hot100/LRUCache.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/hot100/LargestRectangleArea.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/hot100/LengthOfLongestSubstring.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/hot100/LongestConsecutive.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/hot100/LongestValidParentheses.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/hot100/MapSum$TrieNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/hot100/MapSum.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/hot100/MapSum1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/hot100/MaxProduct.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/hot100/MaxSlidingWindow$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/hot100/MaxSlidingWindow$MonotonicQueue.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/hot100/MaxSlidingWindow.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/hot100/MaxSlidingWindow1$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/hot100/MaxSlidingWindow1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/hot100/MergeKLists$ListNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/hot100/MergeKLists.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/hot100/MinPathSum.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/hot100/MinWindow.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/hot100/MoveZeroes.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/hot100/NextPermutation.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/hot100/PalindromePairs.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/hot100/PermuteUnique.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/hot100/PostorderTraversal$TreeNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/hot100/PostorderTraversal.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/hot100/PreorderTraversal$TreeNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/hot100/PreorderTraversal.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/hot100/RegMatch.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/hot100/RemoveNthFromEnd$ListNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/hot100/RemoveNthFromEnd.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/hot100/ReplaceWords$TrieNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/hot100/ReplaceWords.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/hot100/Reverse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/hot100/Rotate.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/hot100/SearchInRotateArray.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/hot100/SearchMatrix.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/hot100/SearchRange.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/hot100/SortInList$ListNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/hot100/SortInList.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/hot100/Subsets.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/hot100/ThreeSum.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/hot100/TopKFrequent$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/hot100/TopKFrequent$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/hot100/TopKFrequent.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/hot100/Triangle.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/hot100/Trie$TrieNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/hot100/Trie.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/hot100/UniquePathsWithObstacles.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/hot100/WordBreak.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/hot100/WordDictionary$TrieNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/hot100/WordDictionary.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/lists/AddTwoNumbers$ListNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/lists/AddTwoNumbers.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/other/WordPattern.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/stack/Calculate.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/stack/EvalRPN.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/stack/SimplifyPath.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/strings/AddBinary.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/strings/AddStrings.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/strings/AtoI.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/strings/BracketsValid$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/strings/BracketsValid.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/strings/FirstUniqChar.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/strings/LengthOfLastWord.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/strings/LetterCombinations$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/strings/LetterCombinations.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/strings/LongestCommonPrefix.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/strings/RestoreIpAddresses.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/strings/ReverseString.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/system_design/BrowserHistory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/system_design/LFUCache$Node.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/system_design/LFUCache.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/system_design/MyCircularDeque.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/system_design/MyCircularDequeOfLinkedList$Node.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/system_design/MyCircularDequeOfLinkedList.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/system_design/MyHashMap.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/system_design/MyHashSet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/system_design/MyHashSetOfLinkedList.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/system_design/MyLinkedList$Node.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/system_design/MyLinkedList.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/system_design/ShortUrl$EncryptInner.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/system_design/ShortUrl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/system_design/Twitter$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/system_design/Twitter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/system_design/test/TweeterTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/system_design/ShortUrl$EncryptInner.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/system_design/ShortUrl.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1rtYA4ZT9rzBrxkkEAZEkAvipNO" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.11428571" />
+    <property name="project.structure.side.proportion" value="0.3415265" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
+  </component>
+  <component name="RunManager" selected="Application.BrowserHistory">
+    <configuration name="BrowserHistory" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.system_design.BrowserHistory" />
+      <module name="algorithm_introduce" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.system_design.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FirstUniqChar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Sword_finger_offer.FirstUniqChar" />
+      <module name="algorithm_introduce" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Sword_finger_offer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.BrowserHistory" />
+        <item itemvalue="Application.FirstUniqChar" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="83491d5f-eb3e-41e1-8d03-cfce789c6b94" name="Default Changelist" comment="" />
+      <created>1619796706915</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1619796706915</updated>
+      <workItem from="1619796708574" duration="66000" />
+      <workItem from="1619796792087" duration="1129000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
