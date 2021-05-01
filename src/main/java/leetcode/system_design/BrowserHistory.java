@@ -88,5 +88,8 @@ public class BrowserHistory {
         System.out.println(browserHistory.back(7));
 
         System.out.println("test git diff");
+        System.out.println("test git diff 01");
+        System.out.println("test git diff 02");
+        System.out.println("test git diff 03");
     }
 }
