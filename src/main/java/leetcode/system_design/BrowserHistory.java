@@ -91,14 +91,11 @@ public class BrowserHistory {
         System.out.println("test git diff 01");
         System.out.println("test git diff 02");
         System.out.println("test git diff 03");
-<<<<<<< HEAD
 
         System.out.println("test branch main 01");
         System.out.println("test branch main 02");
-=======
         System.out.println("test git reset 01");
 
         System.out.println("test git branch 01");
->>>>>>> test01
     }
 }
