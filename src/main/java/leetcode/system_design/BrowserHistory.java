@@ -86,16 +86,6 @@ public class BrowserHistory {
         System.out.println(browserHistory.forward(2));
         System.out.println(browserHistory.back(2));
         System.out.println(browserHistory.back(7));
-
-        System.out.println("test git diff");
-        System.out.println("test git diff 01");
-        System.out.println("test git diff 02");
-        System.out.println("test git diff 03");
-
-        System.out.println("test branch main 01");
-        System.out.println("test branch main 02");
-        System.out.println("test git reset 01");
-
-        System.out.println("test git branch 01");
+        
     }
 }
