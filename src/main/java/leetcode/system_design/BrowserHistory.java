@@ -86,6 +86,6 @@ public class BrowserHistory {
         System.out.println(browserHistory.forward(2));
         System.out.println(browserHistory.back(2));
         System.out.println(browserHistory.back(7));
-        
+
     }
 }
