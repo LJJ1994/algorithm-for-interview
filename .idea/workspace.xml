@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="83491d5f-eb3e-41e1-8d03-cfce789c6b94" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/system_design/BrowserHistory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/system_design/BrowserHistory.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -87,7 +86,7 @@
       <option name="presentableId" value="Default" />
       <updated>1619796706915</updated>
       <workItem from="1619796708574" duration="66000" />
-      <workItem from="1619796792087" duration="10092000" />
+      <workItem from="1619796792087" duration="10289000" />
     </task>
     <servers />
   </component>
