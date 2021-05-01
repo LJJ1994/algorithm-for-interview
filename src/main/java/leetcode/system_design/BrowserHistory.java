@@ -87,5 +87,6 @@ public class BrowserHistory {
         System.out.println(browserHistory.back(2));
         System.out.println(browserHistory.back(7));
 
+        System.out.println("test main update 01");
     }
 }
