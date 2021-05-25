@@ -5,18 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="83491d5f-eb3e-41e1-8d03-cfce789c6b94" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/algorithm_introduce.iml" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm_introduce.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/datastructure/sorts/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/datastructure/sorts/QuickSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/stack/Calculate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/stack/Calculate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/datastructure/sorts/QuickSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/datastructure/sorts/QuickSort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/stack/Calculate.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/leetcode/stack/Calculate.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/system_design/BrowserHistory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/leetcode/system_design/BrowserHistory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/system_design/ShortUrl$EncryptInner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/system_design/ShortUrl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/java_demo/TableSized.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/java_demo/TableSized.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/java_demo/TableSized.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/java_demo/TableSized.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,13 +71,13 @@
       <recent name="E:\Program\Java\algorithm-for-interview" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PetShopTest">
-    <configuration name="BrowserHistory" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.system_design.BrowserHistory" />
+  <component name="RunManager" selected="Application.DigitalCertificateDemo">
+    <configuration name="CryptoDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="java_demo.crypto.CryptoDemo" />
       <module name="algorithm_introduce" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode.system_design.*" />
+          <option name="PATTERN" value="java_demo.crypto.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -92,12 +85,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FileMd5Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="java_demo.FileMd5Demo" />
+    <configuration name="DHDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="java_demo.crypto.DHDemo" />
       <module name="algorithm_introduce" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="java_demo.*" />
+          <option name="PATTERN" value="java_demo.crypto.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -105,12 +98,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FirstUniqChar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Sword_finger_offer.FirstUniqChar" />
+    <configuration name="DigitalCertificateDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="java_demo.crypto.DigitalCertificateDemo" />
       <module name="algorithm_introduce" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Sword_finger_offer.*" />
+          <option name="PATTERN" value="java_demo.crypto.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,12 +111,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PetShopTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.system_design.animal.PetShopTest" />
+    <configuration name="HmacDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="java_demo.crypto.HmacDemo" />
       <module name="algorithm_introduce" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode.system_design.animal.*" />
+          <option name="PATTERN" value="java_demo.crypto.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -131,12 +124,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RuntimeDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="java_demo.RuntimeDemo" />
+    <configuration name="SignatureDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="java_demo.crypto.SignatureDemo" />
       <module name="algorithm_introduce" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="java_demo.*" />
+          <option name="PATTERN" value="java_demo.crypto.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -144,26 +137,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.PetShopTest" />
-        <item itemvalue="Application.RuntimeDemo" />
-        <item itemvalue="Application.FileMd5Demo" />
-        <item itemvalue="Application.BrowserHistory" />
-        <item itemvalue="Application.FirstUniqChar" />
+        <item itemvalue="Application.DigitalCertificateDemo" />
+        <item itemvalue="Application.SignatureDemo" />
+        <item itemvalue="Application.DHDemo" />
+        <item itemvalue="Application.CryptoDemo" />
+        <item itemvalue="Application.HmacDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -181,7 +172,13 @@
       <workItem from="1620176847555" duration="6360000" />
       <workItem from="1620509175046" duration="593000" />
       <workItem from="1620510519854" duration="5671000" />
-      <workItem from="1621307461083" duration="7657000" />
+      <workItem from="1621307461083" duration="9489000" />
+      <workItem from="1621373205310" duration="593000" />
+      <workItem from="1621399042549" duration="678000" />
+      <workItem from="1621459727231" duration="594000" />
+      <workItem from="1621766587885" duration="660000" />
+      <workItem from="1621818173065" duration="10803000" />
+      <workItem from="1621852190860" duration="1187000" />
     </task>
     <servers />
   </component>

@@ -42,7 +42,5 @@ public class TableSized {
             int result = (oldCap & i);
             System.out.println("i: " + hash + ", result: " +  result);
         }
-
-
     }
 }
