@@ -63,6 +63,20 @@
             <version>1.68</version>
         </dependency>
 
+        <!-- https://mvnrepository.com/artifact/org.dom4j/dom4j -->
+        <dependency>
+            <groupId>org.dom4j</groupId>
+            <artifactId>dom4j</artifactId>
+            <version>2.1.1</version>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/com.alibaba/transmittable-thread-local -->
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>transmittable-thread-local</artifactId>
+            <version>2.11.5</version>
+        </dependency>
+
     </dependencies>
 
 </project>
