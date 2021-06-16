@@ -26,6 +26,14 @@ public class MarshallingEncoder {
             out.setInt(lengthPos, out.writerIndex() - lengthPos - 4);
         } catch (Exception e) {
             throw new RuntimeException("encode msg error, " + e.getMessage());
+        } finally {
+            if (marshaller != null) {
+                try {
+                    marshaller.close();
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
+            }
         }
     }
 }

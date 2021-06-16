@@ -30,35 +30,35 @@ public class NettyMessageDecoder extends LengthFieldBasedFrameDecoder {
         }
         NettyMessage message = new NettyMessage();
         Header header = new Header();
-        header.setCrcCode(in.readInt());
-        header.setLength(in.readInt());
-        header.setSessionId(in.readLong());
-        header.setType(in.readByte());
-        header.setPriority(in.readByte());
+        header.setCrcCode(buf.readInt());
+        header.setLength(buf.readInt());
+        header.setSessionId(buf.readLong());
+        header.setType(buf.readByte());
+        header.setPriority(buf.readByte());
 
         // attachment长度
-        int size = in.readInt();
+        int size = buf.readInt();
         if(size > 0) {
             Map<String, Object> attach = new HashMap<String, Object>(size);
             int keySize = 0;
             byte[] keyArr = null;
             String key = null;
             for (int i = 0; i < size; i++) {
-               keySize = in.readInt();
+               keySize = buf.readInt();
                keyArr = new byte[keySize];
-               in.readBytes(keyArr);
+               buf.readBytes(keyArr);
                key = new String(keyArr, StandardCharsets.UTF_8);
-               attach.put(key, marshallingDecoder.decode(in));
+               attach.put(key, marshallingDecoder.decode(buf));
             }
             key = null;
             keyArr = null;
             header.setAttachment(attach);
         }
-        if (in.readableBytes() > 4) {
-            message.setBody(marshallingDecoder.decode(in));
+        if (buf.readableBytes() > 4) {
+            message.setBody(marshallingDecoder.decode(buf));
         }
 
-        message.setBody(header);
+        message.setHeader(header);
         return message;
     }
 }

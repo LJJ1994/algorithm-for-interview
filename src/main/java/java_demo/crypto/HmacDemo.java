@@ -1,7 +1,5 @@
 package java_demo.crypto;
 
-import com.sun.crypto.provider.HmacMD5;
-
 import javax.crypto.KeyGenerator;
 import javax.crypto.Mac;
 import javax.crypto.SecretKey;

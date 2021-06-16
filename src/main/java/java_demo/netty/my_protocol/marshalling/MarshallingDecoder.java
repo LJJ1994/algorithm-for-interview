@@ -2,6 +2,7 @@ package java_demo.netty.my_protocol.marshalling;
 
 import io.netty.buffer.ByteBuf;
 import io.netty.buffer.Unpooled;
+import org.jboss.marshalling.ByteInput;
 import org.jboss.marshalling.Marshaller;
 import org.jboss.marshalling.Unmarshaller;
 
@@ -22,7 +23,7 @@ public class MarshallingDecoder {
         int objSize = in.readInt();
         // 获取存储对象的ByteBuf
         ByteBuf buf = in.slice(in.readerIndex(), objSize);
-        ChannelBufferByteInput input = new ChannelBufferByteInput(buf);
+        ByteInput input = new ChannelBufferByteInput(buf);
         try {
             unmarshaller.start(input);
             Object object = unmarshaller.readObject();
@@ -32,6 +33,12 @@ public class MarshallingDecoder {
             return object;
         } catch (Exception e) {
             throw new RuntimeException("decode ByteBuf error, " + e.getMessage());
+        } finally {
+            try {
+                unmarshaller.close();
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
         }
     }
 

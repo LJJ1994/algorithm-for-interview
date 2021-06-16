@@ -1,11 +1,7 @@
 package java_demo.netty.websocket.handler;
 
-import com.sun.deploy.net.HttpUtils;
 import io.netty.channel.*;
-import io.netty.handler.codec.Headers;
-import io.netty.handler.codec.TextHeaders;
 import io.netty.handler.codec.http.*;
-import io.netty.handler.codec.http2.HttpUtil;
 import io.netty.handler.ssl.SslHandler;
 import io.netty.handler.stream.ChunkedFile;
 import io.netty.handler.stream.ChunkedNioFile;
@@ -48,21 +44,21 @@ public class HttpRequestHandler extends SimpleChannelInboundHandler<FullHttpRequ
 
     @Override
     protected void messageReceived(ChannelHandlerContext ctx, FullHttpRequest request) throws Exception {
-        if (wsUri.equalsIgnoreCase(request.uri())) {
+        if (wsUri.equalsIgnoreCase(request.getUri())) {
             ctx.fireChannelRead(request.retain());
         } else {
 
-            if (HttpHeaderUtil.is100ContinueExpected(request)) {
+            if (HttpHeaders.is100ContinueExpected(request)) {
                 send100continue(ctx);
             }
             RandomAccessFile file = new RandomAccessFile(INDEX, "r");
-            DefaultHttpResponse response = new DefaultHttpResponse(request.protocolVersion(), HttpResponseStatus.OK);
-            response.headers().set(HttpHeaderNames.CONTENT_TYPE, "text/html; charset=UTF_8");
-            boolean keepAlive = HttpHeaderUtil.isKeepAlive(request);
+            DefaultHttpResponse response = new DefaultHttpResponse(request.getProtocolVersion(), HttpResponseStatus.OK);
+            response.headers().set(HttpHeaders.Names.CONTENT_TYPE, "text/html; charset=UTF_8");
+            boolean keepAlive = HttpHeaders.isKeepAlive(request);
             if (keepAlive) {
                 long len = file.length();
-                response.headers().set(HttpHeaderNames.CONTENT_LENGTH, String.valueOf(file.length()));
-                response.headers().set(HttpHeaderNames.CONNECTION, HttpHeaderValues.KEEP_ALIVE);
+                response.headers().set(HttpHeaders.Names.CONTENT_LENGTH, String.valueOf(file.length()));
+                response.headers().set(HttpHeaders.Names.CONNECTION, HttpHeaders.Values.KEEP_ALIVE);
             }
             ctx.write(response);
             if (ctx.pipeline().get(SslHandler.class) == null) {

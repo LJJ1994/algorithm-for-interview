@@ -5,358 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="83491d5f-eb3e-41e1-8d03-cfce789c6b94" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_3_0_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_errorprone_error_prone_annotations_2_5_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_failureaccess_1_0_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_cli_commons_cli_1_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_curator_curator_client_4_0_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_zookeeper_zookeeper_3_5_3_beta.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/algorithm_introduce.iml" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm_introduce.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/java_demo/AnnoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/java_demo/common/AnnoTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/java_demo/Apple.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/java_demo/common/Apple.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/java_demo/BloomFilterDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/java_demo/common/BloomFilterDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/java_demo/COWDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/java_demo/common/COWDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/java_demo/ClassLoaderDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/java_demo/common/ClassLoaderDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/java_demo/CovariantDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/java_demo/common/CovariantDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/java_demo/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/java_demo/common/Demo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/java_demo/DispatcherDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/java_demo/common/DispatcherDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/java_demo/FileMd5Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/java_demo/common/FileMd5Demo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/java_demo/FormatDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/java_demo/common/FormatDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/java_demo/Fruit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/java_demo/common/Fruit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/java_demo/GenericDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/java_demo/common/GenericDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/java_demo/IntegerCacheDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/java_demo/common/IntegerCacheDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/java_demo/ListDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/java_demo/common/ListDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/java_demo/LongAdderDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/java_demo/common/LongAdderDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/java_demo/LoopDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/java_demo/common/LoopDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/java_demo/MapDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/java_demo/common/MapDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/java_demo/NPEDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/java_demo/common/NPEDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/java_demo/Orange.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/java_demo/common/Orange.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/java_demo/OverloadTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/java_demo/common/OverloadTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/java_demo/PhoneHandleDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/java_demo/common/PhoneHandleDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/java_demo/PropertiesDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/java_demo/common/PropertiesDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/java_demo/ReferenceDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/java_demo/common/ReferenceDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/java_demo/RuntimeDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/java_demo/common/RuntimeDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/java_demo/StreamDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/java_demo/common/StreamDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/java_demo/StringBuilderDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/java_demo/common/StringBuilderDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/java_demo/StringDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/java_demo/common/StringDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/java_demo/StringDemo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/java_demo/common/StringDemo1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/java_demo/SwitchDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/java_demo/common/SwitchDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/java_demo/TableSized.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/java_demo/common/TableSized.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/java_demo/ThreadLocalDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/java_demo/common/ThreadLocalDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/java_demo/TimerDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/java_demo/common/TimerDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/java_demo/TreeMapDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/java_demo/common/TreeMapDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/java_demo/crypto/DigestDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/java_demo/crypto/DigestDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/java_demo/crypto/SignatureDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/java_demo/crypto/SignatureDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/java_demo/order/OrderApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/java_demo/order/OrderApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/services/com.service.SendMessage" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Sword_finger_offer/BinaryBitNumber.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Sword_finger_offer/BinaryTreeConvert$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Sword_finger_offer/BinaryTreeConvert.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Sword_finger_offer/BuildTree$TreeNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Sword_finger_offer/BuildTree.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Sword_finger_offer/CQueue.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Sword_finger_offer/Codec$TreeNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Sword_finger_offer/Codec.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Sword_finger_offer/CoinChange.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Sword_finger_offer/CopyRandomList$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Sword_finger_offer/CopyRandomList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Sword_finger_offer/CountDigitOne.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Sword_finger_offer/CutRope.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Sword_finger_offer/DeleteNode$ListNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Sword_finger_offer/DeleteNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Sword_finger_offer/EntryNodeOfLoop$ListNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Sword_finger_offer/EntryNodeOfLoop.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Sword_finger_offer/Fibonaci.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Sword_finger_offer/FindBinaryTreeSuccessor$TreeNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Sword_finger_offer/FindBinaryTreeSuccessor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Sword_finger_offer/FindCenterNode$ListNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Sword_finger_offer/FindCenterNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Sword_finger_offer/FindContinuousSequence.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Sword_finger_offer/FindKthToTail$ListNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Sword_finger_offer/FindKthToTail.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Sword_finger_offer/FindNumberIn2DArray.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Sword_finger_offer/FindPath$TreeNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Sword_finger_offer/FindPath.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Sword_finger_offer/FindRepeatNumber.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Sword_finger_offer/FirstUniqChar.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Sword_finger_offer/HasSubTree$BinaryTreeNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Sword_finger_offer/HasSubTree.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Sword_finger_offer/InversePairs.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Sword_finger_offer/IsNumber$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Sword_finger_offer/IsNumber$10.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Sword_finger_offer/IsNumber$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Sword_finger_offer/IsNumber$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Sword_finger_offer/IsNumber$4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Sword_finger_offer/IsNumber$5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Sword_finger_offer/IsNumber$6.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Sword_finger_offer/IsNumber$7.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Sword_finger_offer/IsNumber$8.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Sword_finger_offer/IsNumber$9.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Sword_finger_offer/IsNumber$CharType.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Sword_finger_offer/IsNumber$State.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Sword_finger_offer/IsNumber.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Sword_finger_offer/IsSymmetric$TreeNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Sword_finger_offer/IsSymmetric.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Sword_finger_offer/LevelOrder$TreeNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Sword_finger_offer/LevelOrder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Sword_finger_offer/LevelOrder2$TreeNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Sword_finger_offer/LevelOrder2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Sword_finger_offer/LongestCommonSubsequence.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Sword_finger_offer/LongestPalindrome.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Sword_finger_offer/LowestCommonAncestor$TreeNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Sword_finger_offer/LowestCommonAncestor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Sword_finger_offer/MajorityElement.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Sword_finger_offer/MatrixPath.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Sword_finger_offer/MaxQueue.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Sword_finger_offer/MaxSlidingWindow$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Sword_finger_offer/MaxSlidingWindow$MonotonicQueue.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Sword_finger_offer/MaxSlidingWindow.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Sword_finger_offer/MaxSubArray.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Sword_finger_offer/MaxValueGift.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Sword_finger_offer/MedianFinder$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Sword_finger_offer/MedianFinder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Sword_finger_offer/MergeTwoLists$ListNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Sword_finger_offer/MergeTwoLists.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Sword_finger_offer/MinDistance.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Sword_finger_offer/MinNumber$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Sword_finger_offer/MinNumber.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Sword_finger_offer/MinStack.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Sword_finger_offer/MirrorRecursively$TreeNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Sword_finger_offer/MirrorRecursively.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Sword_finger_offer/Permutation.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Sword_finger_offer/PowerWithExponent.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Sword_finger_offer/Print1ToMaxNumber.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Sword_finger_offer/PrintBinaryTree$TreeNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Sword_finger_offer/PrintBinaryTree.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Sword_finger_offer/PrintListNode$ListNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Sword_finger_offer/PrintListNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Sword_finger_offer/PrintMatrixClockwisely.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Sword_finger_offer/PrintNumbers.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Sword_finger_offer/ReorderOddEven.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Sword_finger_offer/ReplaceSpace.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Sword_finger_offer/ReverseList$ListNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Sword_finger_offer/ReverseList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Sword_finger_offer/ReverseWords.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Sword_finger_offer/RobotMotion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Sword_finger_offer/RotateArray.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Sword_finger_offer/SearchKInSortedArray.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Sword_finger_offer/SpiralOrder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Sword_finger_offer/StrToInt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Sword_finger_offer/TranslateNum.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Sword_finger_offer/ValidateStackSequences.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Sword_finger_offer/VerifyPostorder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/algorithm/MapDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/algorithm/dp/CompletePack.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/algorithm/dp/ZeroOnePack.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cache/Cache$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cache/Cache$Entity.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cache/Cache.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cache/Cache1$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cache/Cache1$Entity.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cache/Cache1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cache/CacheTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cache/CacheTest1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/service/SPIDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/service/SendMessage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/service/impl/EmailSend.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/service/impl/SmsSend.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/config/config.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/crashing_interview/Difference.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/crashing_interview/Hanota.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/crashing_interview/PowerOf2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/crashing_interview/ReverseArray.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/crashing_interview/SmallestK.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/datastructure/heap/MinHeap.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/datastructure/heap/UnderflowException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/datastructure/searchs/BinarySearch.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/datastructure/sorts/BubbleSort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/datastructure/sorts/CountingSort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/datastructure/sorts/HeapSort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/datastructure/sorts/InsertSort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/datastructure/sorts/MergeSort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/datastructure/sorts/QuickSort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/datastructure/sorts/SelectSort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/datastructure/sorts/ShellSort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/datastructure/tree/BinarySearchTree$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/datastructure/tree/BinarySearchTree.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/datastructure/tree/SegmentTree.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/datastructure/tree/TraverseTree$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/datastructure/tree/TraverseTree.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/java_demo/AnnoTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/java_demo/Apple.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/java_demo/BloomFilterDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/java_demo/COWDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/java_demo/ClassLoaderDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/java_demo/CovariantDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/java_demo/Demo$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/java_demo/Demo$Data.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/java_demo/Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/java_demo/DispatcherDemo$Father.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/java_demo/DispatcherDemo$QQ.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/java_demo/DispatcherDemo$Son.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/java_demo/DispatcherDemo$_360.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/java_demo/DispatcherDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/java_demo/FormatDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/java_demo/Fruit.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/java_demo/GenericDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/java_demo/IntegerCacheDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/java_demo/ListDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/java_demo/LongAdderDemo$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/java_demo/LongAdderDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/java_demo/LoopDemo$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/java_demo/LoopDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/java_demo/MapDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/java_demo/NPEDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/java_demo/Orange.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/java_demo/OverloadTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/java_demo/PhoneHandleDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/java_demo/PropertiesDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/java_demo/ReferenceDemo$User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/java_demo/ReferenceDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/java_demo/StreamDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/java_demo/StringBuilderDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/java_demo/StringDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/java_demo/StringDemo1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/java_demo/SwitchDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/java_demo/TableSized.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/java_demo/ThreadLocalDemo$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/java_demo/ThreadLocalDemo$User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/java_demo/ThreadLocalDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/java_demo/TimerDemo$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/java_demo/TimerDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/java_demo/TreeMapDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/java_demo/anno/Auth.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/java_demo/cache/LRUCache.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/java_demo/date/DateDemo1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/java_demo/date/DateDemo2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/java_demo/enum1/Result.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/java_demo/enum1/ResultDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/java_demo/forEach/ForEachDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/java_demo/generic/Animal.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/java_demo/generic/Cat.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/java_demo/generic/CatDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/java_demo/generic/JiaFeiCat.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/DetectCapitalUse.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/MaxProfit.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/ValidIPAddress.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/backtrace/FindRepeatedDnaSequences.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/backtrace/Permute.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/hot100/AddTwoNumbers$ListNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/hot100/AddTwoNumbers.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/hot100/CoinChange.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/hot100/CoinChange2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/hot100/CombinationSum.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/hot100/CombinationSum2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/hot100/CombinationSum3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/hot100/CombinationSum4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/hot100/Combine.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/hot100/DecodeString.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/hot100/FindAnagrams.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/hot100/FindDisappearedNumbers.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/hot100/FindDuplicate.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/hot100/FindKthLargest$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/hot100/FindKthLargest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/hot100/FindMaxForm.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/hot100/FindTargetSumWays.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/hot100/FindWords.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/hot100/Flatten$TreeNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/hot100/Flatten.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/hot100/GenerateParenthesis.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/hot100/InorderTraversal$TreeNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/hot100/InorderTraversal.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/hot100/IntervalsMerge$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/hot100/IntervalsMerge.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/hot100/IsAnagram.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/hot100/LRUCache$DLinkedNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/hot100/LRUCache.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/hot100/LargestRectangleArea.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/hot100/LengthOfLongestSubstring.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/hot100/LongestConsecutive.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/hot100/LongestValidParentheses.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/hot100/MapSum$TrieNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/hot100/MapSum.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/hot100/MapSum1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/hot100/MaxProduct.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/hot100/MaxSlidingWindow$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/hot100/MaxSlidingWindow$MonotonicQueue.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/hot100/MaxSlidingWindow.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/hot100/MaxSlidingWindow1$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/hot100/MaxSlidingWindow1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/hot100/MergeKLists$ListNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/hot100/MergeKLists.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/hot100/MinPathSum.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/hot100/MinWindow.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/hot100/MoveZeroes.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/hot100/NextPermutation.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/hot100/PalindromePairs.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/hot100/PermuteUnique.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/hot100/PostorderTraversal$TreeNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/hot100/PostorderTraversal.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/hot100/PreorderTraversal$TreeNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/hot100/PreorderTraversal.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/hot100/RegMatch.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/hot100/RemoveNthFromEnd$ListNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/hot100/RemoveNthFromEnd.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/hot100/ReplaceWords$TrieNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/hot100/ReplaceWords.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/hot100/Reverse.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/hot100/Rotate.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/hot100/SearchInRotateArray.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/hot100/SearchMatrix.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/hot100/SearchRange.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/hot100/SortInList$ListNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/hot100/SortInList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/hot100/Subsets.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/hot100/ThreeSum.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/hot100/TopKFrequent$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/hot100/TopKFrequent$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/hot100/TopKFrequent.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/hot100/Triangle.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/hot100/Trie$TrieNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/hot100/Trie.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/hot100/UniquePathsWithObstacles.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/hot100/WordBreak.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/hot100/WordDictionary$TrieNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/hot100/WordDictionary.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/lists/AddTwoNumbers$ListNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/lists/AddTwoNumbers.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/other/WordPattern.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/stack/Calculate.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/stack/EvalRPN.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/stack/SimplifyPath.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/strings/AddBinary.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/strings/AddStrings.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/strings/AtoI.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/strings/BracketsValid$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/strings/BracketsValid.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/strings/FirstUniqChar.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/strings/LengthOfLastWord.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/strings/LetterCombinations$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/strings/LetterCombinations.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/strings/LongestCommonPrefix.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/strings/RestoreIpAddresses.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/strings/ReverseString.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/system_design/BrowserHistory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/system_design/LFUCache$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/system_design/LFUCache.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/system_design/MyCircularDeque.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/system_design/MyCircularDequeOfLinkedList$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/system_design/MyCircularDequeOfLinkedList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/system_design/MyHashMap.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/system_design/MyHashSet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/system_design/MyHashSetOfLinkedList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/system_design/MyLinkedList$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/system_design/MyLinkedList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/system_design/ShortUrl$EncryptInner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/system_design/ShortUrl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/system_design/Twitter$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/system_design/Twitter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/system_design/test/TweeterTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sword_finger_offer/FindBinaryTreeSuccessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Sword_finger_offer/FindBinaryTreeSuccessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sword_finger_offer/LevelOrder2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Sword_finger_offer/LevelOrder2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/java_demo/crypto/DigitalCertificateDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/java_demo/crypto/DigitalCertificateDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/java_demo/crypto/HmacDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/java_demo/crypto/HmacDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/java_demo/netty/my_protocol/decode/NettyMessageDecoder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/java_demo/netty/my_protocol/decode/NettyMessageDecoder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/java_demo/netty/my_protocol/encode/NettyMessageEncoder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/java_demo/netty/my_protocol/encode/NettyMessageEncoder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/java_demo/netty/my_protocol/marshalling/MarshallingDecoder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/java_demo/netty/my_protocol/marshalling/MarshallingDecoder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/java_demo/netty/my_protocol/marshalling/MarshallingEncoder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/java_demo/netty/my_protocol/marshalling/MarshallingEncoder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/java_demo/netty/my_protocol/server/handler/LoginRespAuthHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/java_demo/netty/my_protocol/server/handler/LoginRespAuthHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/java_demo/netty/websocket/handler/HttpRequestHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/java_demo/netty/websocket/handler/HttpRequestHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/java_demo/nio/NIODemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/java_demo/nio/NIODemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/ValidIPAddress.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/ValidIPAddress.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/system_design/animal/PetShop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/system_design/animal/PetShop.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -426,12 +90,12 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../nettybook2" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.11428571" />
     <property name="project.structure.side.proportion" value="0.3415265" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="http.proxy" />
   </component>
   <component name="RebelAgentSelection">
     <selection>jr</selection>
@@ -442,20 +106,7 @@
       <recent name="E:\Program\Java\algorithm-for-interview\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MarshallingDecoder">
-    <configuration name="ChatServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="java_demo.netty.websocket.ChatServer" />
-      <module name="algorithm_introduce" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="java_demo.netty.websocket.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.NettyClient">
     <configuration name="EchoServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="java_demo.netty.client_server.EchoServer" />
       <module name="algorithm_introduce" />
@@ -482,6 +133,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="NettyClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="java_demo.netty.my_protocol.client.NettyClient" />
+      <module name="algorithm_introduce" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="java_demo.netty.my_protocol.client.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NettyServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="java_demo.netty.my_protocol.server.NettyServer" />
+      <module name="algorithm_introduce" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="java_demo.netty.my_protocol.server.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="StringUUID" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="java_demo.netty.websocket.uuid.impl.StringUUID" />
       <module name="algorithm_introduce" />
@@ -495,39 +172,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TcpDnsClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="java_demo.netty.dns.TcpDnsClient" />
-      <module name="algorithm_introduce" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="java_demo.netty.dns.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.NettyClient" />
+        <item itemvalue="Application.NettyServer" />
+        <item itemvalue="Application.EchoServer" />
         <item itemvalue="Application.MarshallingDecoder" />
         <item itemvalue="Application.StringUUID" />
-        <item itemvalue="Application.TcpDnsClient" />
-        <item itemvalue="Application.ChatServer" />
-        <item itemvalue="Application.EchoServer" />
       </list>
     </recent_temporary>
   </component>
@@ -565,7 +227,8 @@
       <workItem from="1623603770637" duration="24029000" />
       <workItem from="1623726414060" duration="1024000" />
       <workItem from="1623727482928" duration="14595000" />
-      <workItem from="1623776823251" duration="19881000" />
+      <workItem from="1623776823251" duration="23872000" />
+      <workItem from="1623812095874" duration="8968000" />
     </task>
     <servers />
   </component>

@@ -1,6 +1,5 @@
 package leetcode.system_design.animal;
 
-import com.sun.scenario.effect.impl.sw.sse.SSEBlend_SRC_OUTPeer;
 import leetcode.system_design.animal.pet.Bird;
 import leetcode.system_design.animal.pet.Cat;
 import leetcode.system_design.animal.pet.Dog;

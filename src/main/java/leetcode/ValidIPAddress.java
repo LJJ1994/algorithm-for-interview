@@ -1,7 +1,7 @@
 package leetcode;
 
-import com.sun.org.apache.bcel.internal.generic.IF_ACMPEQ;
-import sun.net.util.IPAddressUtil;
+
+import org.bouncycastle.util.IPAddress;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -56,16 +56,6 @@ public class ValidIPAddress {
         return "IPv6";
     }
 
-    // 2.语言内置
-    public String validIPAddress1(String IP) {
-        if (IP.chars().filter(ch -> ch == '.').count() == 3) {
-            return IPAddressUtil.isIPv4LiteralAddress(IP) ? "IPv4" : "Neither";
-        } else if (IP.chars().filter(ch -> ch == ':').count() == 7) {
-            return IPAddressUtil.isIPv6LiteralAddress(IP) ? "IPv6" : "Neither";
-        } else {
-            return "Neither";
-        }
-    }
 
     public static void main(String[] args) {
 //        Pattern compile = Pattern.compile(".*[a-zA-Z]+.*");
@@ -75,11 +65,5 @@ public class ValidIPAddress {
         String IPv6 = "2001:0db8:85a3:0:0:8A2E:0370:7334";
         String NotIPv4 = "1e1.4.5.6";
         String NotIPv6 = "2001:0db8:85a3:0:0:8A2E:0370:7334:";
-
-        ValidIPAddress validIPAddress = new ValidIPAddress();
-        System.out.println(validIPAddress.validIPAddress1(IPv4));
-        System.out.println(validIPAddress.validIPAddress1(IPv6));
-        System.out.println(validIPAddress.validIPAddress1(NotIPv4));
-        System.out.println(validIPAddress.validIPAddress1(NotIPv6));
     }
 }

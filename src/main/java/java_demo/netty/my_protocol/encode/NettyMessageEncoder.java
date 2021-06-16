@@ -3,6 +3,7 @@ package java_demo.netty.my_protocol.encode;
 import io.netty.buffer.ByteBuf;
 import io.netty.buffer.Unpooled;
 import io.netty.channel.ChannelHandlerContext;
+import io.netty.handler.codec.MessageToByteEncoder;
 import io.netty.handler.codec.MessageToMessageEncoder;
 import java_demo.netty.my_protocol.marshalling.MarshallingEncoder;
 import java_demo.netty.my_protocol.message.Header;
@@ -13,7 +14,7 @@ import java.nio.charset.StandardCharsets;
 import java.util.List;
 import java.util.Map;
 
-public class NettyMessageEncoder extends MessageToMessageEncoder<NettyMessage> {
+public class NettyMessageEncoder extends MessageToByteEncoder<NettyMessage> {
     private MarshallingEncoder marshallingEncoder;
 
     public NettyMessageEncoder() throws IOException {
@@ -21,9 +22,9 @@ public class NettyMessageEncoder extends MessageToMessageEncoder<NettyMessage> {
     }
 
     @Override
-    protected void encode(ChannelHandlerContext ctx, NettyMessage msg, List<Object> out) throws Exception {
+    protected void encode(ChannelHandlerContext ctx, NettyMessage msg, ByteBuf byteBuf) throws Exception {
         if (msg == null || msg.getHeader() == null) {
-            throw new RuntimeException("The decode msg is null.");
+            throw new Exception("The decode msg is null.");
         }
         // ByteBuf 值排序为(括号为字节数)：
         // crcCode(4) + length(4) + sessionId(8) + type(1) + priority(1) + attachment长度(4) + 【attachment的值】 + 【消息体的值(如果有)】
@@ -35,7 +36,6 @@ public class NettyMessageEncoder extends MessageToMessageEncoder<NettyMessage> {
         //  没有：
         //      直接想写0
 
-        ByteBuf byteBuf = Unpooled.buffer();
         byteBuf.writeInt(msg.getHeader().getCrcCode());
         byteBuf.writeInt(msg.getHeader().getLength());
         byteBuf.writeLong(msg.getHeader().getSessionId());

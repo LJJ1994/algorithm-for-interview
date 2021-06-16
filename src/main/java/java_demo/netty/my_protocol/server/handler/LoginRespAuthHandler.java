@@ -1,6 +1,5 @@
 package java_demo.netty.my_protocol.server.handler;
 
-import com.sun.org.apache.xpath.internal.operations.Bool;
 import io.netty.channel.ChannelHandlerAdapter;
 import io.netty.channel.ChannelHandlerContext;
 import java_demo.netty.my_protocol.message.Header;
@@ -9,6 +8,7 @@ import java_demo.netty.my_protocol.type.MessageType;
 
 import java.net.InetSocketAddress;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.ConcurrentMap;
@@ -17,10 +17,15 @@ public class LoginRespAuthHandler extends ChannelHandlerAdapter {
     // 节点检查，是否已登录
     private static final ConcurrentMap<String, Boolean> nodeCheck = new ConcurrentHashMap<>();
     // 白名单机制
-    private static final List<String> ipWhiteList = new ArrayList<>();
+    private static List<String> ipWhiteList = null;
+
+    static {
+        ipWhiteList = new ArrayList<>(Arrays.asList("127.0.0.1", "192.168.1.104"));
+    }
 
     @Override
     public void exceptionCaught(ChannelHandlerContext ctx, Throwable cause) throws Exception {
+        cause.printStackTrace();
         nodeCheck.remove(ctx.channel().remoteAddress().toString());
         ctx.close();
         ctx.fireExceptionCaught(cause);
@@ -38,10 +43,10 @@ public class LoginRespAuthHandler extends ChannelHandlerAdapter {
                 loginResp = buildResp(MessageType.HANDSHAKE_FAIL.value());
             } else {// 2.判断是否在白名单
                 InetSocketAddress socketAddress = (InetSocketAddress) ctx.channel().remoteAddress();
-                String hostName = socketAddress.getHostName();
+                String ip = socketAddress.getAddress().getHostAddress();
                 boolean isOk = false;
                 for (String s : ipWhiteList) {
-                    if (s.equals(hostName)) {
+                    if (s.equals(ip)) {
                         isOk = true;
                         break;
                     }
