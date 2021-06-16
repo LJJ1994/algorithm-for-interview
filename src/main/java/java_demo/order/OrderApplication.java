@@ -1,32 +1,33 @@
 package java_demo.order;
-
-import com.alibaba.ttl.TransmittableThreadLocal;
-import com.alibaba.ttl.TtlRunnable;
-
-import java.util.concurrent.ExecutorService;
-import java.util.concurrent.Executors;
-import java.util.concurrent.TimeUnit;
+import java.util.concurrent.*;
 
 public class OrderApplication {
     private static final ExecutorService executorService = Executors.newFixedThreadPool(1);
     private static boolean payStatus = false;
-    public static void main(String[] args) throws InterruptedException {
+    public static void main(String[] args) throws InterruptedException, ExecutionException, TimeoutException {
 
-        Runnable task = () -> {
-            try {
-                Integer tradeNo = 123;
-                Integer outTradeNo = 456;
-                boolean result = SimulateTakeOrder.isPaySuccess(tradeNo, outTradeNo);
-                payStatus = result;
-            } catch (InterruptedException e) {
-                e.printStackTrace();
-            }
+//        Runnable task = () -> {
+//            try {
+//                Integer tradeNo = 123;
+//                Integer outTradeNo = 456;
+//                boolean result = SimulateTakeOrder.isPaySuccess(tradeNo, outTradeNo);
+//                payStatus = result;
+//            } catch (InterruptedException e) {
+//                e.printStackTrace();
+//            }
+//        };
+        Callable<Boolean> task1 = () -> {
+            Integer tradeNo = 123;
+            Integer outTradeNo = 456;
+            boolean result = SimulateTakeOrder.isPaySuccess(tradeNo, outTradeNo);
+            return result;
         };
-        executorService.submit(task);
+
+        Future<Boolean> future = executorService.submit(task1);
+        Boolean aBoolean = future.get();
         Thread.sleep(1000);
         System.out.println("waiting order pay status.................");
-        Thread.sleep(60 * 1000);
-        System.out.println("order pay status: " + payStatus);
+        System.out.println("order pay status: " + aBoolean);
         executorService.shutdownNow();
 
 //        final ThreadLocal<Person> threadLocal=new TransmittableThreadLocal<>();

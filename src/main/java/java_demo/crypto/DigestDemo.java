@@ -1,7 +1,5 @@
 package java_demo.crypto;
 
-import org.bouncycastle.jce.provider.BouncyCastleProvider;
-
 import java.math.BigInteger;
 import java.nio.charset.StandardCharsets;
 import java.security.MessageDigest;
@@ -35,10 +33,5 @@ public class DigestDemo {
         System.out.println(new BigInteger(1, digest2).toString(16));
         System.out.println("9ca7e4eaa6e8ae9c7d261167129184883644d07dfba7cbfbc4c8a2e08360d5b".length());
 
-        Security.addProvider(new BouncyCastleProvider());
-        MessageDigest ripeMD160 = MessageDigest.getInstance("RipeMD160");
-        ripeMD160.update("hello world!".getBytes());
-        byte[] digest3 = ripeMD160.digest();
-        System.out.println(new BigInteger(1, digest3).toString(16));
     }
 }

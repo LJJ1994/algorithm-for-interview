@@ -1,7 +1,5 @@
 package java_demo.crypto;
 
-import org.bouncycastle.jcajce.provider.symmetric.CAST5;
-
 import javax.crypto.KeyGenerator;
 import java.math.BigInteger;
 import java.nio.charset.StandardCharsets;
